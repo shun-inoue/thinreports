@@ -12,8 +12,8 @@ module Thinreports
           'IPAGothic'  => FONT_STORE.join('ipag.ttf').to_s,
           'IPAPGothic' => FONT_STORE.join('ipagp.ttf').to_s,
           # ここに追加フォントを入れてあげればいけるのかなぁ。。。
-          'SoukokuMincho' => FONT_STORE.join('SoukouMincho.ttf').to_s
-          'MochiyPop-E-P' => FONT_STORE.join('MochiyPop-E-P.ttf').to_s
+          'SoukokuMincho' => FONT_STORE.join('SoukouMincho.ttf').to_s,
+          'MochiyPop-E-P' => FONT_STORE.join('MochiyPop-E-P.ttf').to_s,
           'MochiyPop-E' => FONR_STORE.join('MochiyPop-E.ttf').to_s
         }.freeze
 
