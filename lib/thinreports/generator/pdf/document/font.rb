@@ -13,6 +13,8 @@ module Thinreports
           'IPAPGothic' => FONT_STORE.join('ipagp.ttf').to_s,
           # ここに追加フォントを入れてあげればいけるのかなぁ。。。
           'SoukokuMincho' => FONT_STORE.join('SoukouMincho.ttf').to_s
+          'MochiyPop-E-P' => FONT_STORE.join('MochiyPop-E-P.ttf').to_s
+          'MochiyPop-E' => FONR_STORE.join('MochiyPop-E.ttf').to_s
         }.freeze
 
         DEFAULT_FALLBACK_FONTS = %w[IPAMincho].freeze
