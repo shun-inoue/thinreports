@@ -15,7 +15,8 @@ module Thinreports
           'SoukokuMincho' => FONT_STORE.join('SoukouMincho.ttf').to_s,
           'MochiyPop-E-P' => FONT_STORE.join('MochiyPop-E-P.ttf').to_s,
           'MochiyPop-E' => FONR_STORE.join('MochiyPop-E.ttf').to_s,
-          'kokumr' => FONT_STORE.join('font_1_kokumr_1.00_rls.ttf').to_s
+          'kokumr' => FONT_STORE.join('font_1_kokumr_1.00_rls.ttf').to_s,
+          'GenGothic' => FONT_SIZE.join('GenEiNuGothic-EB.ttf').to_s
         }.freeze
 
         DEFAULT_FALLBACK_FONTS = %w[IPAMincho].freeze
