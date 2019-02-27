@@ -19,8 +19,6 @@ module Thinreports
           'GenGothic' => FONT_SIZE.join('GenEiNuGothic-EB.ttf').to_s,
           'GenShinGothic' => FONT_SIZA.join('GenShinGothic-Heavy.ttf').to_s
         }.freeze
-        # 読み込みができているか確認
-        puts BUILTIN_FONTS
 
         DEFAULT_FALLBACK_FONTS = %w[IPAMincho].freeze
 
@@ -58,6 +56,7 @@ module Thinreports
         # @param [String] file
         # @return [String] installed font name
         def install_font(name, file)
+          logger.debug("フォントの名前#{name}、フォントファイル#{file.to_s}")
           raise Errors::FontFileNotFound unless File.exist?(file)
 
           pdf.font_families[name] = {
