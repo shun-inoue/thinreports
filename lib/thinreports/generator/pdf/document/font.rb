@@ -17,7 +17,8 @@ module Thinreports
           # 'MochiyPop-E' => FONT_STORE.join('MochiyPop-E.ttf').to_s,
           # 'kokumr' => FONT_STORE.join('font_1_kokumr_1.00_rls.ttf').to_s,
           # 'GenGothic' => FONT_STORE.join('GenEiNuGothic-EB.ttf').to_s,
-          'GenShinGothic' => FONT_STORE.join('GenShinGothic-Heavy.ttf').to_s
+          # 'GenShinGothic' => FONT_STORE.join('GenShinGothic-Heavy.ttf').to_s,
+          'Yasashisa' => FONT_STORE.join('07YasashisaAntique.ttf')
         }.freeze
 
         DEFAULT_FALLBACK_FONTS = %w[IPAMincho].freeze
