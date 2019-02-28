@@ -38,8 +38,6 @@ module Thinreports
           # Setup to Prawn::Document.
           setup_fonts
           setup_custom_graphic_states
-          logger.debug("aaaaaaaaaaaa")
-          logger.debug(setup_fonts)
 
           # Encrypts the document.
           @pdf.encrypt_document(security) if security
