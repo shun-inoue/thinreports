@@ -4,6 +4,7 @@ module Thinreports
   module Report
     # @see Thinreports::Report::Base#initialize
     def self.new(*args)
+      puts "ああああああああ"
       Base.new(*args)
     end
 
