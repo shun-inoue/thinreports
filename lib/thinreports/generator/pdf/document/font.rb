@@ -29,6 +29,7 @@ module Thinreports
 
         def setup_fonts
           # Install built-in fonts.
+          puts BUILTIN_FONTS
           BUILTIN_FONTS.each do |font_name, font_path|
             install_font(font_name, font_path)
           end
