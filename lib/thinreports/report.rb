@@ -4,7 +4,6 @@ module Thinreports
   module Report
     # @see Thinreports::Report::Base#initialize
     def self.new(*args)
-      logger.debug "ああああああああ"
       Base.new(*args)
     end
 
@@ -15,6 +14,7 @@ module Thinreports
 
     # @see Thinreports::Report::Base#generate
     def self.generate(*args, &block)
+      logger.debug "ああああああああああああああ"
       Base.generate(*args, &block)
     end
   end
